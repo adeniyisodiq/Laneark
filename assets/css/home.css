@@ -1,0 +1,1426 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+   
+}
+
+/* nav-bar starts */
+.nav-bar{
+    width: 100%;
+    height: 85px;
+    background: white;
+    box-shadow: 1px 1px 5px rgba( 0, 0, 0, 0.1);
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    
+
+
+}
+.nav-bar ul{
+    float: right;
+    position: relative;
+    top: 40px;
+    right: 100px;
+    
+}
+
+.nav-bar ul li{
+    display: inline;
+    margin: 10px;
+    font-family: "Red Hat Display", sans-serif;
+    color: #2B6ED1;
+    
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+.nav-bar ul li a:hover{
+    color: #bd450c;
+}
+.nav-bar ul li a.home {
+    color:#b85c39;
+}
+
+.nav-bar ul li a.home:hover{
+    color: #2B6ED1;
+}
+.nav-bar ul li a.get-started{
+   background: rgb(18, 44, 130);
+   color: white;
+   border-radius: 5px;
+   padding: 10px 35px 10px 35px;
+   
+}
+
+.nav-bar ul li a.get-started:hover{
+    background: white;
+    color: blue;
+    border: 1px blue double;
+}
+
+.nav-bar img{
+    width: 70px;
+    height: 70px;
+    margin-left: 60px;
+    padding:10px;
+}
+
+
+.nav-bar .menu-icon{
+    display: none;
+}
+/* nav-bar ends */
+
+
+
+
+/* hero starts */
+.hero{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #fdf8f5;
+    
+    
+}
+.hero .left{
+    width: 50%;
+    height: auto;
+    padding: 5px;
+    margin-top: 160px;
+    
+    
+}
+
+
+.hero .left h1 {
+    width: 100%;
+    font-size: 40px;
+    font-family: 'red hat Display', sans-serif;
+    font-weight: 700px;
+    color: #bd450c;
+    text-align: center;
+     margin: auto;
+     padding-bottom: 30px;
+    
+}
+.hero .left p{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: justify;
+
+    
+}
+
+.hero .left button.get-started {
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+    padding: 10px 35px 10px 35px;
+    justify-content: left;
+    align-items: center;
+    font-weight: normal;
+    font-size: 20px;
+    
+}
+.hero .left .get-started{
+   
+    background: rgb(18, 44, 130);
+    border-radius: 5px;
+    padding:10px 35px 10px 35px;
+    animation: breath 1s ease 0s infinite;
+}
+
+.hero .left a.get-started:hover{
+    background: white;
+    color: blue;
+    border: 1px blue double;
+}
+
+
+.hero .right{
+    width: 50%;
+    margin: 10px;
+    height: 90%;
+    
+}
+    
+
+.hero .right img{
+    width: 90%;
+    height: auto;
+    position: relative;
+    /* animation: hero_image 3s ease 0s ; */
+
+    
+}
+/* hero ends */
+
+
+
+/* core-value starts */
+
+
+.core-values{
+    width: 100%;
+    height: auto;
+    /* background-color: green; */
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.core-values .header{
+    width:100%;
+    height: auto;
+    /* background-color: tan; */
+    padding-bottom: 20px;
+    
+
+}
+
+.core-values .header .title-image{
+    width: 100%;
+    height: 100px;
+    /* background-color: tan; */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: -10;
+}
+
+.core-values .header .title-image img{
+    z-index: -10;
+}
+
+
+.core-values .header h1 {
+    text-align: center;
+    font-weight: normal;
+    color:rgb(18, 44, 130);
+    margin-bottom: 30px;
+    padding-top: 30px;
+    z-index: 10;
+
+
+    
+  
+}
+
+
+.core-values .header p{
+text-align: center;
+width: 80%;
+margin: auto;
+
+}
+
+.core-values .body{
+    width:100%;
+    height: auto;
+    /* background-color: brown; */
+    display: flex;
+    
+
+}
+
+.core-values .body .left{
+    width:65%;
+    height: 100%;
+    /* background-color: saddlebrown; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-left: 100px;
+    
+}
+.core-values .body .left .box{
+    width:45%;
+    height: auto;
+    /* background-color: yellow; */
+    margin: 5px;
+    padding: 5px;
+    padding-bottom: 50px;
+
+}
+
+.core-values .body .left .box .icon-container{
+display: flex;
+justify-content: center;
+margin-bottom: 15px;
+}
+.core-values .body .left .box .title{
+text-align: center;
+}
+
+.core-values .body .left .box .title h3{
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 15px;
+    }
+.core-values .body .left .box .description{
+width: 100%;
+}
+
+.core-values .body .left .box .description{
+    text-align: center;
+    }
+
+.core-values .body .right{
+    width:35%;
+    height: 100%;
+    /* background-color: salmon; */
+    padding-top: 10px;
+   justify-content: center;
+
+}
+.core-values .dotted{
+    width: 80px;
+    position:absolute;
+    padding-left: 90%;
+    z-index: -5;
+    margin-top: -25px;
+}
+
+.core-values .body .right img{
+    width: 90%;
+    margin-bottom: 30px;
+    border-radius:5px;
+    
+   
+}
+
+
+/* CORE-VALUES ENDS */
+
+
+
+
+
+
+
+/* WHAT WE DO STARTS */
+.what-we-do{
+    width:100%;
+    height:auto;
+    /* background-color: green; */
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    
+}
+.what-we-do .top{
+    width: 100%;
+    height: auto;
+    /* background-color: tan; */
+    padding-bottom: 20px;
+}
+
+.what-we-do .top .title-image{
+    width: 100%;
+    height: 100px;
+    /* background-color: tan; */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: -10;
+
+}
+
+.what-we-do .top h1{
+    text-align: center;
+    font-weight: normal;
+    color:rgb(18, 44, 130);
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.what-we-do .top p{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.what-we-do .body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    
+}
+
+.what-we-do .body .box{
+    width: 25%;
+    height: auto;
+    /* background-color: yellow; */
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 30px;
+    border-radius: 2px;
+    box-shadow: 0.05px 0.05px 5px rgb(146, 146, 146);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    
+    
+}
+
+.what-we-do .body  .box:hover  {
+    background: rgb(0, 0, 104);
+    color: white;
+    fill: white;
+    transition: .4s;
+
+}
+.what-we-do .body  .box:hover .icon-container svg path{
+    fill: white;
+    
+}
+
+
+
+
+
+
+ .what-we-do .body .box .icon-container{
+     display: flex;
+     justify-content: center;
+     padding-top: 10px;
+     
+ }
+
+ 
+
+ 
+
+ .what-we-do .body .box .title h3{
+     text-align: center;
+     padding-top: 10px;
+     padding-bottom: 20px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: normal;
+     margin-left: 10px;
+     margin-right: 10px;
+     z-index: 10;
+ }
+
+ .what-we-do .body .box .title:hover{
+     color: white;
+ }
+
+ .what-we-do .body .box .title p{
+     text-align: center;
+     margin: 10px;
+     padding-right: 15px;
+     padding-left: 15px;
+     padding-bottom: 10px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+
+ }
+
+ .what-we-do .body .box .button{
+     width: 120px; 
+     border-radius: 5px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     background-color: white;
+     color: blue;
+     margin-left: 60px;
+     /* border-color: blue;
+     border-width: 1px;
+     border-style: double; */
+     border: 1px blue double;
+ }
+
+ .what-we-do .body .box .button p{
+     text-align: center;
+     font-weight: normal;
+ }
+/* WHAT WE DO ENDS */
+
+/* why laneark starts */
+
+.why-laneark{
+    width: 100%;
+    height: auto;
+    /* background-color: gray; */
+    padding-top: 30px;
+    background-image: url(images/why-laneark.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: -20px;
+    overflow: hidden;
+    
+}
+.why-laneark .header{
+    width: 100%;
+    /* background-color: lightgray; */
+    text-align: center;
+    
+    
+    
+}
+
+.why-laneark .header .title-image{
+    width: 100%;
+    height: 100px;
+    /* background-color: tan; */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: -10;
+
+}
+
+.why-laneark .header h1{
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+    color: rgb(18, 44, 130 );
+    margin-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+
+.why-laneark .body{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+.why-laneark .body .box{
+    width: 20%;
+    height: auto;
+    /* background: green; */
+    margin: 10px;
+    padding-top: 20px;
+}
+
+.why-laneark .body .box .number-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.why-laneark .body .box .number-container .number{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(18, 44, 130);
+    color: white;
+    font-size: 20px;
+}
+
+.why-laneark .body .box .icon-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.why-laneark .body .box h3{
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+
+
+.why-laneark .body .box p{
+    width: 100%;
+    text-align: center;
+    margin-bottom: auto;
+    padding-bottom: 20px;
+    
+}
+
+
+
+/* why laneark ends */
+
+/* our works starts here  */
+.our-work{
+    width: 100%;
+    height:auto;
+    /* background-color: tan; */
+    padding-top: 15px;
+    overflow: hidden;
+}
+
+.our-work .top{
+    width: 100%;
+    height: 100px;
+    /* background-color: peru; */
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.our-work .top .title-image{
+    width: 100%;
+    height: 100px;
+    /* background-color: tan; */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: -10;
+}
+
+.our-work .top h3{
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: normal;
+    padding-top: 25px;
+    color: rgb(18, 44, 130 );
+    z-index: 10;
+}
+
+.our-work .top p{
+    padding-top: 15px;
+}
+
+
+.our-work .images{
+    margin-top: 10px;
+    width: 100%;
+    /* background-color: rgb(0, 0, 104); */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+
+}
+
+
+.our-work .images img{
+    width: 25%;
+    padding: 15px;
+}
+
+.our-work .see-more-container{
+    width: 100%;
+    height: 50px;
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.our-work .see-more-container .see-more{
+    width: 120px; 
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    background-color: white;
+    color:#b85c39 ;
+    
+    /* border-color: blue;
+    border-width: 1px;
+    border-style: double; */
+    border: 1.5px #b85c39 double;
+    margin-bottom: 30px;
+    margin-top: 5px;
+
+}
+
+
+
+.our-work .see-more h4{
+    font-family: red Hat Display, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    
+
+}
+
+
+/* our works ends here  */
+
+
+/* what people say about us starts here */
+
+.what-people-say-about-us{
+    width: 100%;
+    height: auto;
+    background-color: rgb(4, 4, 19);
+    padding-top: 15px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.what-people-say-about-us .top{
+    width: 100%;
+    height: 60px;
+    /* background-color: #bd450c; */
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    color: white;
+}
+
+.what-people-say-about-us .body{
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.what-people-say-about-us .body .box{
+    width: 25%;
+    height: auto ;
+    background-color: white;
+    margin: 20px;
+    margin-top: 15px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    
+}
+
+.what-people-say-about-us .body .box .up{
+    width: 100%;
+    height: 70px;
+    /* background-color: darkblue; */
+    
+    margin-top: 10px;
+    display: flex;
+    
+}
+.what-people-say-about-us .body .box .up .space-1{
+    width: 20%;
+    height: 70px;
+    /* background-color: darkgray; */
+    margin-left: 15px;
+
+}
+
+.what-people-say-about-us .body .box .up .space-1 img{
+    padding-top: 10px;
+}
+
+.what-people-say-about-us .body .box .up .space-2{
+    width: 60%;
+    height: 70px;
+    padding-left: 10px;
+    margin-right: 10px;
+    /* background-color: darkorange; */
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.what-people-say-about-us .body .box .up .space-2 h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.what-people-say-about-us .body .box .up .space-3{
+    width: 20%;
+    height: 70px;
+    /* background-color: maroon ; */
+}
+
+.what-people-say-about-us .body .box .up .space-3 img{
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+
+
+.what-people-say-about-us .body .box .down{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    /* background-color: darkgoldenrod; */
+}
+
+
+.what-people-say-about-us .body .box .down p{
+    line-height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+}
+/* what people say about us ends here  */
+
+/* newsletter starts here   */
+.newsletter{
+    width: 100%;
+    height: auto;
+    background-color: rgb(229, 229, 229);
+    justify-content: center;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.newsletter .top{
+    width: 100%;
+    height: 100px;
+    /* background-color: black; */
+    color: black;
+    text-align: center;
+}
+
+.newsletter .down{
+    width: 100%;
+    height: auto;
+    /* background-color: peru; */
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.newsletter .down input{
+    width: 50%;
+    height: 46px;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding-left: 10px;
+    font-family: red Hat Display, sans-serif;
+    font-size: 15px;
+}
+
+
+.newsletter .submit{
+    width: 20%;
+    height: 100px;
+    /* background-color: tan; */
+
+}
+
+.newsletter .top h3{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: normal;
+    font-family: red Hat Display, sans-serif;
+    padding-bottom: 15px;
+}
+
+.newsletter .top p{
+    font-family: red Hat Display, sans-serif;
+    font-size: 15px;
+}
+
+
+
+.newsletter .submit p{
+    font-family: red Hat Display, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color:rgb(18, 44, 130 );
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 30px;
+    margin-right: 40px;
+    overflow: hidden;
+   
+
+}
+ /* newsletter ends here  */
+
+
+
+
+
+
+
+
+
+/* footer starts here */
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #b85c39;
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+.footer .top{
+    width: 100%;
+    height: auto;
+    /* background-color: blue; */
+    margin-bottom:15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.footer .top .box{
+    width: 18%;
+    height: auto;
+    /* background-color: darkgoldenrod; */
+    margin: 15px;
+    padding: 5px 20px 0px 20px;
+    font-family: red Hat Display, sans-serif;
+    color: white;
+    
+}
+
+.footer .top .box img{
+    margin-bottom: 20px;
+}
+
+.footer .top .box h3{
+    
+    width: 100%;
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    padding-top: 35px;
+}
+
+.footer .top .box ul{
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 25px;
+    font-size: 14px;
+    
+}
+
+.footer .top .box ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer .top .box p{
+    line-height: 25px;
+    font-size: 14px;
+    
+}
+.footer .middle{
+    width: 100%;
+    height: 50px;
+    /* background-color: peru; */
+    margin-bottom: 5px;
+    border-top: white 1.5px double;
+    border-bottom: white 1.5px double;
+    display: flex;
+    flex-flow: row nowrap;
+    font-family: red Hat Display, sans-serif;
+    font-size: 13px;
+}
+
+.footer .middle .container{
+    width: 18%;
+    /* background-color: tomato; */
+    margin-left: 40px;
+}
+
+
+.footer .middle svg{
+    width: 25px;
+    height: 25px;
+    padding-top: 10px;
+    margin-left: 5px; 
+    fill: white;
+    
+    
+}
+
+.footer .middle .inner-box{
+    width: 32%;
+    color: white;
+    /* background-color: darkblue; */
+    margin: 5px;
+    padding-top: 10px;
+
+
+}
+
+.footer .bottom{
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(216, 141, 29); */
+    text-align: center;
+    color: white;
+    font-family: red Hat Display, sans-serif;
+    justify-content: center;    
+    font-size: 14px;
+}
+
+
+.footer .bottom .center{
+    width: 100%;
+    height: auto;
+    /* background-color: darkblue; */
+}
+
+
+.footer .bottom p{
+    padding: 5px;
+}
+
+
+
+
+
+
+ 
+
+
+/* tablet screen starts  */
+
+@media only screen and (max-width: 750px) {
+    .nav-bar{
+        position: sticky;
+        top: 0%;
+        height: auto;
+    }
+    .nav-bar ul{
+        display: none;
+         position: relative;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        background: white;
+        z-index: 1000;
+        padding-bottom: 20px; 
+        height: auto;
+        /* margin-top: 0px; */
+            
+
+    }
+    .nav-bar ul li{
+        display: block;
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-bar img{
+        margin-left: 10px;
+    }
+
+    .nav-bar .menu-icon{
+        float: right;
+        position: relative;
+        top:40px;
+        right: 10px;
+        display: block;
+
+
+    }
+
+    .hero {
+        flex-flow: row wrap;
+    }
+
+    .hero .left{
+        width: 100%;
+        margin-bottom: 60px;
+       
+    }
+
+    .hero .left h1{
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    .hero .left p{
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    .hero .right{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero .right img{
+       padding-left: 10px;
+    }
+
+
+    .core-values .body{
+        flex-flow: row wrap;
+    }
+
+    .core-values .body .left{
+        width: 100%;
+        padding-left: 0px;
+    }
+    
+    .core-values .body .left .box{
+        width: 40%;
+        margin: 10px;
+        
+    }
+    .core-values .body .right{
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+
+    .core-values .body .right img{
+        width: 40%;
+        margin: 10px;
+    }
+    .core-values .dotted{
+        padding: 0%;
+    }
+
+    .what-we-do .body{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        
+    }
+
+    .what-we-do .body .box{
+        width: 40%;
+
+    }
+
+    .why-laneark{
+        width: 100%;
+    }
+
+    .why-laneark .body{
+        width: 100%;
+
+    }
+
+    .why-laneark .body .box{
+        width: 45%;
+    }
+
+    .our-work{
+        width: 100%;
+
+    }
+
+    .our-work .images{
+        width: 100%;
+    }
+
+    .our-work .images img{
+        width: 45%;
+    }
+
+    .what-people-say-about-us{
+        width: 100%;
+        
+    }
+
+    .what-people-say-about-us .body{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .what-people-say-about-us .body .box{
+        width: 40%;
+    }
+
+    .footer{
+        width: 100%;
+    }
+
+    .footer .top{
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+         
+    }
+
+    .footer .top .box{
+        width: 40%;
+        margin: 0px;
+        margin-bottom: 0px;
+        padding: 10px;
+        
+    }
+
+    .footer .middle{
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .footer .middle .container{
+        width: 40%;
+        margin-left: 0px;
+    }
+
+    .footer .middle .inner-box{
+        width: 40%;
+    }
+
+    .newsletter{
+        width: 100%;
+        height: auto;
+        background-color: aliceblue;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .newsletter .top{
+        width: 100%;
+        height: 100px;
+        /* background-color: black; */
+        color: black;
+        text-align: center;
+    }
+    
+    .newsletter .down{
+        width: 100%;
+        height: auto;
+        /* background-color: peru; */
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+   
+    
+
+
+
+
+
+
+
+
+
+    
+
+   
+
+
+
+ }
+
+
+/* tablet screen ends  */
+
+
+
+/* mobile screen start  */
+
+
+
+@media only screen and (max-width: 400px) {
+
+    .hero .left h1{
+        text-align: left;
+        padding-left: 5px;
+    }
+    .core-values .body .left .box{
+        width: 90%;
+
+    }
+
+    .core-values .body .right{
+        width: 100%;
+        flex-flow:row wrap;
+        justify-content: center;
+
+    }
+
+    .core-values .body .right img{
+        width: 90%;
+    }
+
+    .what-we-do .body .box{
+        width: 80%;
+
+    }
+
+    .why-laneark .body{
+        width: 100%;
+
+    }
+
+    .why-laneark .body .box{
+        width: 45%;
+    }
+
+    .our-work .images{
+        width: 100%;
+    }
+
+    .our-work .images img{
+        width: 90%;
+    }
+
+    .what-people-say-about-us{
+        width: 100%;
+        
+    }
+
+    .what-people-say-about-us .body{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .what-people-say-about-us .body .box{
+        width: 80%;
+    }
+
+
+
+}
+
+/* mobile screen ends  */
+
+
+
+.main{
+    width: 100%;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    position: fixed;
+    z-index: 2000;
+    align-items: center;
+}
+.main .pop-up{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    z-index: 1000;
+    border-radius: 5px;
+}
+.main .pop-up .get-started-close {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius:50%;
+    padding: 0px;
+    font-size: 20px;
+    border: none;
+    color: rgba(0, 0, 0, 0.5);
+    float: right;
+    margin-right: 10px;
+}
+.main .pop-up .call{
+    width: 100%;
+    height: 50px;
+    border-bottom:1px solid rgba(128, 128, 128, 0.794) ;
+    margin-bottom: 10px;
+    
+}
+.main .pop-up .call h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.835);
+    font-weight: bold;
+
+}
+.main .pop-up .img {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.main .pop-up .img img{
+    width: 100px;
+    height: 100px;
+}
+.main .pop-up form {
+    width: 100%;
+   
+
+}
+.main .pop-up  .input-data{
+    width: 90%;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.main .pop-up  input{
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.main .pop-up button{
+    width: 100px;
+    padding: 10px 15px;
+    margin:5px 0px 0px 5px ;
+}
+.main .pop-up .button .btn-1{
+    padding: 10px 20px;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+.main .pop-up .button .btn-2{
+    padding: 10px 20px;
+    background: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    float: right;
+    margin-right: 18px;
+}
+
+
+
+
+@keyframes breath {
+    0%{
+        transform:scale(0.5) ;
+    }
+    50%{
+        transform:scale(1) ;
+    
+    }
+    100%{
+        transform:scale(0.5) ;
+
+    }
+}
+@keyframes hero_image {
+    from{
+        right: -500px ;
+        opacity: 0.2;
+    }
+    to{
+        right: 0px;
+        opacity: 1;
+    
+    }
+    
+}
